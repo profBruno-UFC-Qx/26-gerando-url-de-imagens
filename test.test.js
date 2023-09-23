@@ -30,7 +30,7 @@ test('Uma URL não pode possuir espaço em branco entre palavras', () => {
   expect(gerarURLImagem(titulo)).toBe("hoje_cedo_faltou_energia.jpg")
 });
 
-test('URL nova a aprtir de titulo complexo', () => {
+test('URL nova a a partir de titulo complexo', () => {
   const titulo =  " Amanhã cedo o jogador partirá em seu jato com destino indefinido _"
   expect(gerarURLImagem(titulo)).toBe("amanha_cedo_o_jogador_partira_em_seu_jato_com_destino_indefinido__.jpg")
 });
